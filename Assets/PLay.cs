@@ -22,6 +22,7 @@ public class PLay : MonoBehaviour
 
        if (Input.GetKeyDown(KeyCode.Space))
        rigidbody2D.AddForce(new Vector2(0, jumpForce) , ForceMode2D.Impulse);
+
        
     }
 }
